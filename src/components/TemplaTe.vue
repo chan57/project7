@@ -6,6 +6,7 @@ const emit = defineEmits(["chek"]);
 
 const color = ref("red");
 const bol = ref(false);
+const massage = ref('вкл кнопочки')
 watch(bol, (newBol) => {
   emit("chek", bol.value);
   return newBol == false
@@ -23,7 +24,7 @@ document.documentElement.style.setProperty(
 
 <template>
   <div>
-    <h2>вкл кнопочки</h2>
+    <h2>{{ massage }}</h2>
     <input type="checkbox" v-model="bol" />
     <h4 class="hh">{{ bol }}</h4>
   </div>
