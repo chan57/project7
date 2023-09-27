@@ -30,7 +30,7 @@ document.documentElement.style.setProperty(
   </div>
 </template>
 
-<style>
+<style scoped>
 :root {
   --pagebackground: green;
 }
