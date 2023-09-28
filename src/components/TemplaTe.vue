@@ -24,7 +24,7 @@ document.documentElement.style.setProperty(
 
 <template>
   <div>
-    <h2>{{ massage }}</h2>
+    <h1>{{ massage }}</h1>
     <input type="checkbox" v-model="bol" />
     <h4 class="hh">{{ bol }}</h4>
   </div>

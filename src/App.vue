@@ -39,5 +39,9 @@ const currentView = computed(() => {
   </div>
 </template>
 
-<style>
+<style scoped>
+.container {
+  display: flex;
+}
+
 </style>
